@@ -1,0 +1,37 @@
+{
+    "name": "chrome-gun",
+    "description": "Gun SuperPeer in a Chrome app.",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "author": {
+      "name": "Tom Ashley",
+      "email": "tomashley@protonmail.com"
+    },
+    "kiosk_enabled": false,
+    "offline_enabled": true,
+    "icons": {
+      "16": "img/icon_16.png",
+      "128": "img/icon_128.png"
+    },
+    "app": {
+      "background": {
+        "scripts": ["www/js/jquery.min.js","js/lib/wsc-chrome.js","js/admin.js","js/main.js"],
+        "persistent": false
+      }
+    },
+    "sockets":{
+      "tcpServer": {
+        "listen": "*"
+      }
+    },
+    "permissions": [
+      "<all_urls>",
+      "system.display",
+      "system.network",
+      "webview",
+      "storage",
+      {"fileSystem": ["directory","retainEntries"]}
+    ],
+    "optional_permissions": [ "audioCapture", "videoCapture" ]
+  
+  }
