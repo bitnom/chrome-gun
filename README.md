@@ -15,10 +15,10 @@ This doesn't work yet as I just started it. Check back soon though because I'm o
 
 ## To Install
 
-Either:
+**Either:**
 
 1. Install on Chrome OS via the app store (Coming soon).
 
-or
+**or**
 
 2. [Download directly] to install in your Chrome/Chromium browser.
