@@ -1,6 +1,6 @@
 # chrome-gun
 
-If you like [gun](https://gun.eco) and [superPeer]("https://github.com/TensorTom/superPeer"), you're gonna love chrome-gun! Chrome-gun is a gun super-peer/gun node in a Chrome app.
+If you like [gun](https://gun.eco) and [superPeer](https://github.com/TensorTom/superPeer), you're gonna love chrome-gun! Chrome-gun is a gun super-peer/gun node in a Chrome app.
 
 ## What & Why
 
